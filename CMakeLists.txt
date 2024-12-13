@@ -13,3 +13,4 @@ project(CondensationMonitorESP32)
 
 # Pure CMake components
 add_subdirectory(components/condensationmonitor)
+add_subdirectory(components/dht)
