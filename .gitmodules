@@ -1,0 +1,4 @@
+[submodule "components/condensationmonitor"]
+	path = components/condensationmonitor
+	url = git@github.com:SloopySky/CondensationMonitorApp.git
+	branch = app
