@@ -2,3 +2,7 @@
 	path = components/condensationmonitor
 	url = git@github.com:SloopySky/CondensationMonitorApp.git
 	branch = app
+[submodule "components/dht"]
+	path = components/dht
+	url = git@github.com:SloopySky/DHT.git
+	branch = cmake
