@@ -10,3 +10,6 @@ set(COMPONENT_DIRS $ENV{IDF_PATH}/components ${EXTRA_COMPONENT_DIRS})
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(CondensationMonitorESP32)
+
+# Pure CMake components
+add_subdirectory(components/condensationmonitor)
