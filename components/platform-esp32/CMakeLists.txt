@@ -1,5 +1,5 @@
-idf_component_register(SRCS "main.c" "dhtsensor/dhtplatform.c" "dhtsensor/dhtsensor.c"
-                       INCLUDE_DIRS "." "dhtsensor"
+idf_component_register(SRCS "main.c" "dhtsensor/dhtplatform.c" "dhtsensor/dhtsensor.c" "serialpublisher/serialpublisher.c"
+                       INCLUDE_DIRS "." "dhtsensor" "serialpublisher"
                        REQUIRES driver esp_timer)
 
 # Link pure CMake components
