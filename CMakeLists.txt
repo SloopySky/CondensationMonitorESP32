@@ -14,3 +14,6 @@ project(CondensationMonitorESP32)
 # Pure CMake components
 add_subdirectory(components/condensationmonitor)
 add_subdirectory(components/dht)
+
+# Link interfaces required by DHT component
+target_link_libraries(DHT INTERFACE "-u dht_get_microseconds")
