@@ -1,4 +1,4 @@
-idf_component_register(SRCS "main.c" "dhtsensor/dhtplatform.c"
+idf_component_register(SRCS "main.c" "dhtsensor/dhtplatform.c" "dhtsensor/dhtsensor.c"
                        INCLUDE_DIRS "." "dhtsensor"
                        REQUIRES driver esp_timer)
 
